@@ -1,0 +1,233 @@
+body {
+    background-color: rgba(250, 214, 220, 0.5);
+    font-size: 16px;
+}
+h2{
+    font-family: 'Courier New', Courier, monospace;
+    color: rgb(90, 90, 90);
+    text-align: center;
+}
+
+.imagen {
+    background-image: url(/99932bb691426c5c7ca01fb6529c797f.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 400px;
+    position: relative;
+    transform: rotate(360deg);
+    max-width: 100%;
+    max-height: 100%;
+}
+
+.header{
+    background-color: #9e9e9e;
+    border-radius: 10px;
+}
+
+.tittle {
+    color: wheat;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 1.8rem;
+}
+.navegacionPrincipal {
+    display: flex;
+    flex-direction: row wrap;
+    align-items: center;
+}
+
+.navegacionPrincipal a {
+    color: wheat;
+    font-size: 1.5rem;
+    text-decoration: none;
+    padding: 22px;
+}
+
+.navegacionPrincipal a:hover {
+    text-decoration-line: underline;
+    background-color: #aaa7a7;
+}
+
+.container {
+    justify-content: space-around;
+    max-width: 120rem;
+    margin: 0 auto 0 auto;
+}
+
+.containerBody {
+    background-color: rgba(255, 228, 188, 0.363);
+    border: none;
+    height: 150%;
+    width: 100%;
+    position: absolute;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    border-radius: 10px;
+}
+
+.items {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 20px;
+    background-color: rgba(255, 228, 188, 0.363);
+    width: 32%;
+    margin-bottom: 20px;
+    border-radius: 10px;
+}
+
+.circulo {
+    display: flex;
+    align-items: center;
+    margin-top: 15px;
+    background-color: #9e9e9e;
+    border-color: none;
+    border-radius: 100%;
+    width: 50px;
+    height: 50px;
+    padding: 30px;
+}
+
+.texto {
+    font-family: 'Courier New', Courier, monospace;
+    color: rgb(112, 112, 112);
+    text-align: center;
+    margin: 15px 15px;
+
+}
+
+.tittle3 {
+    font-size: 40;
+}
+
+.tittle4{
+    text-align: center;
+    font-size: 30;
+    font-family: 'Courier New', Courier, monospace;
+    color: rgb(112, 112, 112);
+}
+
+.texto p {
+    text-align: justify;
+    vertical-align: middle;
+}
+
+.formulario  {
+    background-color: rgba(255, 228, 188, 0.514);
+    width: 600px;
+    margin: 0 auto;
+    padding: 25px;
+    border-radius: 15px;
+
+    
+}
+.formulario legend {
+    color: rgb(90, 90, 90);
+    text-align: center;
+    text-transform: uppercase;
+    font-weight: 100;
+}
+
+.fieldset {
+    border: none;
+}
+
+.campos {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: auto auto 200px;
+    column-gap: 10px;
+
+}
+
+.campo {
+    color: rgb(90, 90, 90);
+    display: flex;
+    flex-direction: column;
+} 
+
+.campo:nth-child(3),
+.campo:nth-child(4) {
+    grid-column: 1 / 3;
+}
+
+.imput-text {
+    width: 100%;
+    border: none;
+    margin: 10px 0;
+    height: 35px;
+    border-radius: 10px;
+}
+
+.imput-text:hover {
+    border: none;
+}
+
+.text-area {
+    height: 150px;
+}
+
+.botton {
+    text-align: left;
+    background-color: #9e9e9e;
+    border-color: none;
+    border-radius: 10px;
+    width: 100px;
+    font-weight: lighter;
+    font-size: 20px;
+    font-family: 'Courier New', Courier, monospace;
+    color: white;
+}
+
+.botton a{
+    color: white;
+
+    text-decoration: none;
+    padding: 15px;
+}
+
+.botton a:hover{
+    color: rgb(247, 212, 147);
+    text-decoration: underline;
+    background-color: #aaa7a7;
+    border-radius: 10px;
+}
+
+.alinearBotton2 {
+    display: flex;
+    justify-content: flex-end;
+    border: none;
+}
+
+.alinearBotton2 .botton{
+    border: none;
+}
+
+.texto a{
+    text-align: left;
+    background-color: #9e9e9e;
+    border-color: none;
+    border-radius: 10px;
+    padding: 5px;
+    width: 100px;
+    font-weight: lighter;
+    font-size: 20px;
+    font-family: 'Courier New', Courier, monospace;
+    color: rgb(112, 112, 112);
+    text-decoration: none;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    color: black;
+  }
+  th, td {
+    border: 1px solid white;
+    padding: 8px;
+    text-align: left;
+  }
+  th {
+    background-color: #aaa7a7;
+  }
